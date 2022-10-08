@@ -1,5 +1,5 @@
 {
     "default": {
-      "nerdfont_codepoints": { "baseline": "1.0.0", "port-version": 0 }
+      "nerdfont-codepoints": { "baseline": "1.0.0", "port-version": 0 }
     }
   }
