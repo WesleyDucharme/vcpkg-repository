@@ -2,6 +2,8 @@
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
   REPO WesleyDucharme/nerdfont-codepoints
+  REF 43c9dde6e5b0b492459565d91c2b2bbcd0dbb0b1
+  SHA512 0
   HEAD_REF main
 )
 
