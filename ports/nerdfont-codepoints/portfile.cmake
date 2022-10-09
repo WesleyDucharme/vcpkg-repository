@@ -3,6 +3,7 @@
 #         Download the tarball: https://github.com/<org>/<repo>/tarball/<commithash>
 #         Hash it using vcpkg: vcpkg.exe hash <path_to_tarball>
 # I should write some scripts to make a lot of this easier.
+# The git tree property for a version file is based `git rev-parse HEAD:ports/nerdfont-codepoints`
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
   REPO WesleyDucharme/nerdfont-codepoints
