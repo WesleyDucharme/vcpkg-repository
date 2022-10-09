@@ -1,9 +1,13 @@
-# Test comment
+# REF: This is the commit hash found by looking at the commit on github
+# SHA512: This is the hash of the tarball file for the repo at the given commit.
+#         Download the tarball: https://github.com/<org>/<repo>/tarball/<commithash>
+#         Hash it using vcpkg: vcpkg.exe hash <path_to_tarball>
+# I should write some scripts to make a lot of this easier.
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
   REPO WesleyDucharme/nerdfont-codepoints
-  REF 43c9dde6e5b0b492459565d91c2b2bbcd0dbb0b1
-  SHA512 19450ca856dc54d72fba75f0dd2889f01dabc98400236a660df0019dad12a94c5ba2b8e2f584e68aca1ea63ebfd91cff29d47807f9178fd4177cd399d06118ff
+  REF 447c118ca9c44df8e8d3a4177921b86f65443f83
+  SHA512 d83a4ca1f212685be6e90f13a7a6a24831f3c8dedb86ff1bb5b4b7d72230e5924f1d57f3fd778ae1f1a647d8506595d7845bb0d67d045e3eead1822f8caf9570
   HEAD_REF main
 )
 
